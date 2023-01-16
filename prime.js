@@ -1,13 +1,13 @@
  let num=13; 
-let count=1;
-    for(let i=1;i<num;i++)
+let factors=0;
+    for(let i=1;i<=num;i++)
     {
-        if(num%i==2)
+        if(num%i==0)
         {
-            count++
+            factors++
         }
     }
-    if(count==1)
+    if(factors==2)
     {
         console.log("Yes")
     }
